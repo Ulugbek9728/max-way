@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/bgImage.jpg");
+}
+
+.login-page {
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.left-side {
+    width: 40%;
+    background-color: rgba(0, 255, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-side .title {
+    font-size: 40px;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.left-side .commit {
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+.signIn {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.left-side .myBtn {
+    width: 200px;
+    height: 50px;
+    border: 2px solid #d4d4d4;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.myBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.right-side {
+    width: 60%;
+    background-color: white;
+}
+
+.container {
+    width: 350px;
+    height: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.create {
+    font-size: 40px;
+    line-height: 50px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.all-circle {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle a {
+    display: flex;
+    justify-content: center;
+}
+
+.circle img {
+    width: 40%;
+}
+
+.circle:nth-child(2) {
+    margin: 0 10px;
+}
+
+.circle:nth-child(2) img {
+    width: 50%;
+}
+
+.text {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+}
+
+.all-input {
+    width: 95%;
+    height: 40px;
+    margin-top: 20px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.all-input input {
+    width: 100%;
+    height: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: 2px solid #e8e8e8;
+    border-bottom: 2px solid #e8e8e8;
+    padding-left: 50px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #e1e1e1;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid green;
+}
+
+.all-input img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+.signUp {
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media (max-width: 576px) {
+    .login-page {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+    .left-side {
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 20px 20px 0 0;
+    }
+    .right-side {
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 0 0 20px 20px;
+    }
+    .left-side .title {
+        font-size: 25px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    .left-side .commit {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+
+    .signIn {
+        padding-top: 25px;
+    }
+
+    .left-side .myBtn {
+        width: 120px;
+        height: 30px;
+        border-radius: 15px;
+        font-size: 13px;
+    }
+
+    .right-side .container {
+        margin: 0;
+        width: 100%;
+        height: 60%;
+    }
+    .create {
+        font-size: 25px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+    .circle {
+        width: 35px;
+        height: 35px;
+    }
+    .text {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .all-input {
+        width: 95%;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .all-input input::placeholder{
+        font-size: 13px;
+    }
+    .all-input img {
+        width: 15px;
+        height: 15px;
+    }
+    .signUp {
+        width: 120px;
+        height: 30px;
+        border-radius: 15px;
+        margin: 20px 0;
+        font-size: 13px;
+    }
+
+
+
+
+}

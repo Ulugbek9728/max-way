@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #800A7A;
+    border-radius: 0 0 10px 10px;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.aloqa {
+    display: flex;
+    width: 180px;
+    height: 50px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+
+.aloqa:nth-of-type(2) {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    padding-left: 42px;
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+
+.aloqa img {
+    width: 18px;
+    height: 20px;
+    margin-right: 19px;
+}
+
+.nomer {
+    width: 136px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.nomer h4 {
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.nomer div {
+    font-size: 12px;
+}
+
+.badge {
+    font-size: 10px;
+    position: absolute;
+    top: 9px;
+    left: 40px;
+}
+
+
+.nav-pills {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.ikki {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222124;
+}
+
+.nav-item .active {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    background-color: #F1B301 !important;
+    border-radius: 27px;
+}
+
+.top {
+    display: flex;
+}
+
+.filtr {
+    width: 140px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.filtr span {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222124;
+    margin-left: 10px;
+}
+
+.tab-pane .row {
+    margin-top: 30px;
+}
+
+.sarlavha {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    color: #222124;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.box {
+    padding: 30px;
+    display: flex;
+    border: 1px solid rgba(151, 151, 151, 0.181927);
+    border-radius: 12px;
+}
+
+.olov {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: rgba(255, 255, 255, 0.249235);
+    box-shadow: 0 7px 40px rgba(238, 39, 68, 0.355086);
+    backdrop-filter: blur(8.15485px);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222124;
+}
+
+.title img {
+    margin-left: 17px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222124;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    margin-top: 10px;
+}
+
+.narx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.narx div {
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #F1B301;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signIn{
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .right {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .knopka:focus {
+        outline: none;
+    }
+    .nav-item {
+        margin-right: 0;
+    }
+    .top {
+        display: block;
+    }
+    .filtr {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .col-md-12:nth-of-type(2) {
+        margin-top: 30px;
+    }
+    .sarlavha {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .tab-content {
+        width: 576px !important;
+        box-sizing: border-box;
+    }
+    .rasim {
+        width: 120px;
+    }
+    .olov {
+        width: 30px;
+        height: 30px;
+    }
+    .olov img {
+        width: 20px;
+    }
+    .ikki{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .nav-item .active {
+        font-size: 15px;
+        line-height: 20px;
+        border-radius: 23px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .text{
+        font-size: 11px;
+    }
+    .narx{
+        margin-top: 15px !important;
+    }
+    .narx h4{
+        font-size:18px ;
+        margin: 0;
+    }
+    .narx div{
+        width: 30px;
+        height: 30px;
+    }
+    .box{
+        padding: 5px;
+    }
+    body{
+        padding-left: 15px;
+    }
+    .signUp{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 768px) and  (min-width: 576px) {
+    .signUp{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-nav {
+        text-align: center;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .right {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .knopka:focus {
+        outline: none;
+    }
+
+    .nav-item {
+        margin-right: 0;
+    }
+
+    .top {
+        display: block;
+    }
+
+    .filtr {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .col-md-12:nth-of-type(2) {
+        margin-top: 30px;
+    }
+
+    .sarlavha {
+        font-size: 36px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .nav-item {
+        margin-right: 0;
+    }
+
+    .top {
+        display: block;
+    }
+
+    .filtr {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .col-md-12:nth-of-type(2) {
+        margin-top: 30px;
+    }
+
+    .sarlavha {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .nav-item {
+        margin-right: 10px;
+    }
+
+    .box {
+        padding: 30px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
